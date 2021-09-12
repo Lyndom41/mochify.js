@@ -1,4 +1,10 @@
-# Mochify Driver for WebDriver
+---
+permalink: /driver-webdriver/
+tags: nav
+title: Mochify WebDriver driver
+---
+
+# Mochify WebDriver driver
 
 ## Local Selenium
 
