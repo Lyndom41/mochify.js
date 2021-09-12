@@ -4,7 +4,7 @@ const WebDriver = require('webdriver').default;
 
 exports.mochifyDriver = mochifyDriver;
 
-const default_url = `file:${__dirname}/index.html`;
+const default_url = `file:${__dirname}/empty.html`;
 
 async function mochifyDriver(options = {}) {
   const { url } = options;

@@ -8,7 +8,7 @@ async function mochifyDriver(options = {}) {
   options = Object.assign(
     {
       engine: 'firefox',
-      url: `file:${__dirname}/index.html`,
+      url: `file:${__dirname}/empty.html`,
       stderr: process.stderr
     },
     options
