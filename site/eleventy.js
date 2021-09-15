@@ -9,6 +9,12 @@ module.exports = function (config) {
   // Copy assets:
   config.addPassthroughCopy('assets');
 
+  const font_awesome = '../node_modules/@fortawesome/fontawesome-free';
+  config.addPassthroughCopy({
+    [`${font_awesome}/webfonts/*`]: 'assets/webfonts/',
+    [`${font_awesome}/css/all.min.css`]: 'assets/css/fontawesome.min.css'
+  });
+
   // Add syntax highlighting plugin:
   config.addPlugin(syntax_highlight);
 };
