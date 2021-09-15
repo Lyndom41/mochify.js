@@ -11,14 +11,4 @@ module.exports = function (config) {
 
   // Add syntax highlighting plugin:
   config.addPlugin(syntax_highlight);
-
-  return {
-    dir: {
-      input: '.',
-      output: 'build',
-      includes: 'includes',
-      layouts: 'layouts',
-      data: 'data'
-    }
-  };
 };
