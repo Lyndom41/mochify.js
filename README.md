@@ -1,8 +1,3 @@
----
-permalink: /
-title: Mochify
----
-
 # [![Mochify](header.png)](https://github.com/mantoni/mochify.js/)
 
 > TDD with Browserify, Mocha, Headless Chrome and WebDriver

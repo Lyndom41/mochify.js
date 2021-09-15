@@ -1,9 +1,3 @@
----
-permalink: /site/
-tags: nav
-title: Mochify website
----
-
 # Mochify website
 
 The website is generated with [Eleventy][1], a simpler static site generator,

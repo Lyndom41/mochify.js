@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       label: 'Drivers',
-      href: '/docs/drivers/',
+      href: '/drivers/',
       icon: 'fas fa-fw fa-plus'
     },
     {

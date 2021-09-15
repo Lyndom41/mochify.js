@@ -15,10 +15,10 @@ module.exports = function (config) {
   return {
     dir: {
       input: '.',
-      output: `site/build`,
-      includes: 'site/includes',
-      layouts: 'site/layouts',
-      data: 'site/data'
+      output: 'build',
+      includes: 'includes',
+      layouts: 'layouts',
+      data: 'data'
     }
   };
 };

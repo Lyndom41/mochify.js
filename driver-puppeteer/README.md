@@ -1,9 +1,3 @@
----
-permalink: /driver-puppeteer/
-tags: nav
-title: Mochify Puppeteer driver
----
-
 # Mochify Puppeteer driver
 
 ## Usage
